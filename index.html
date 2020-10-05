@@ -280,7 +280,7 @@
     	<!-- player entity -->
       <a-entity id='player' wasd-controls look-controls='pointerLockEnabled:true' camera position='0 1.75 0'>
       	<a-entity id='cursor' cursor position='0 0 -0.1' geometry='primitive: ring; radiusInner: 0.003; radiusOuter: 0.005' material='color: black; shader: flat'></a-entity>
-      	<a-entity geometry='primitive: plane; width: 0.1; height: 0.004' position='0 0.2 -0.05' material='color: black; shader: flat' text="value: Use 'W', 'A', 'S' and 'D' to move around.\nClick or look to interact with objects.; align: center;" animation='property: material.opacity; to: 0; easing: easeOutQuad; delay: 10000'></a-entity>
+      	<a-entity geometry='primitive: plane; width: 0.1; height: 0.004' position='0 0.01 -0.05' material='color: black; shader: flat' text="value: Use 'W', 'A', 'S' and 'D' to move around.\nClick or look to interact with objects.; align: center;" animation='property: visible; to: false; easing: easeOutQuad; delay: 10000'></a-entity>
       </a-entity>
       
       <!-- walls -->
