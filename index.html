@@ -253,7 +253,7 @@
         		var el = this.el;
     				var rotationTmp = this.rotationTmp = this.rotationTmp || {x: 0, y: 0, z: 0};
    					var rotation = el.getAttribute('rotation');
-    				rotationTmp.y = rotation.y + 1;
+    				rotationTmp.y = rotation.y + 100;
     				el.setAttribute('rotation', rotationTmp);
 
     				//This is really fast, but for some reason scaling it down made it completely disappear.
