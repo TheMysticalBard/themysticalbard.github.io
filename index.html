@@ -281,7 +281,7 @@
       <a-entity id='player' wasd-controls look-controls='pointerLockEnabled:true' camera position='0 1.75 0'>
       	<a-entity id='cursor' cursor position='0 0 -0.1' geometry='primitive: ring; radiusInner: 0.003; radiusOuter: 0.005' material='color: black; shader: flat'></a-entity>
       	<!-- This text tells you what controls are available -->
-      	<a-entity geometry='primitive: plane; width: 0.1; height: 0.01' position='0 0.01 -0.05' material='color: black; shader: flat; transparent: true' text="value: Use 'W', 'A', 'S' and 'D' to move around.\nClick or look to interact with objects.; align: center; transparent: true" animation='property: material.opacity; to: 0; easing: easeOutQuad; delay: 10000' animation__text='property: text.opacity; to: 0; easing: easeOutQuad; delay: 10000'></a-entity>
+      	<a-entity geometry='primitive: plane; width: 0.1; height: 0.01' position='0 0.01 -0.05' material='color: black; shader: flat; transparent: true' text="value: Use 'W', 'A', 'S' and 'D' to move around.\nClick or look to interact with objects.; align: center; transparent: true" animation='property: material.opacity; to: 0; easing: easeOutQuad; delay: 10000' animation__text='property: text.opacity; to: 0; easing: easeOutQuad; delay: 10000' animation__textvisible='property: visible; to: false; delay: 11000'></a-entity>
       </a-entity>
       
       <!-- walls -->
@@ -302,7 +302,7 @@
       <a-entity position='-0.1 1.5 1.75'>
       	<a-box position='0 0.055 -0.005'scale='0.05 0.16 0.009' material='color:black'></a-box>
       	<a-circle window-slider position='0 0.05 -0.01' scale='0.02 0.02 0.02' rotation='0 180 0' material='color: gray'>
-      		<a-entity position='0 0 0.001' geometry='primitive: plane; width: 10; height: 2' material='color: black; transparent: true; opacity: 0.7' text='value: < Press me!; transparent: true' animation='property: material.opacity; to: 0; startEvents: raise-opacity' animation_text='property: text.opacity; to: 0; startEvents: raise-opacity'></a-entity>
+      		<a-entity position='-0.1 0 0.001' geometry='primitive: plane; width: 10; height: 2' material='color: black; transparent: true; opacity: 0.7' text='value: < Press me!; transparent: true' animation='property: material.opacity; to: 0; startEvents: raise-opacity' animation_text='property: text.opacity; to: 0; startEvents: raise-opacity'></a-entity>
       	</a-circle>
       </a-entity>
       <!-- This was for bed scale and position, accurate to real life.
