@@ -256,8 +256,8 @@
     				rotationTmp.y = rotation.y + 10;
     				el.setAttribute('rotation', rotationTmp);
 
-    				el.object3D.position.x += Math.sin(rotation.y * Math.PI / 180) / 360;
-    				el.object3D.position.z += Math.cos(rotation.y * Math.PI / 180) / 360;
+    				el.object3D.position.x += Math.sin(rotation.y * Math.PI / 180);
+    				el.object3D.position.z += Math.cos(rotation.y * Math.PI / 180);
         	}
         });
       </script>
