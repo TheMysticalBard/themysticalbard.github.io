@@ -1,12 +1,12 @@
 # CS4331-Project1
-![](assets/videos/demo.mp4)
+![](https://raw.githubusercontent.com/TheMysticalBard/themysticalbard.github.io/master/assets/videos/demo.mp4)
 
 [Link to webpage.](https://themysticalbard.github.io/)
 
 ## Window opacity slider
 
 The opacity of the window changes when you touch the slider, it moves both upwards and downwards.
-![Window](/assets/images/window.png)
+![](https://raw.githubusercontent.com/TheMysticalBard/themysticalbard.github.io/master/assets/images/window.PNG)
 
     AFRAME.registerComponent('window-slider', {
        init: function() {
@@ -71,7 +71,7 @@ The opacity of the window changes when you touch the slider, it moves both upwar
 ## Fan speed dial
 
 The speed of the fan changes when you use the dial, it rotates from side to side, just like my fan dial in my real room.
-![Fan](/assets/images/fan.png)
+![](https://raw.githubusercontent.com/TheMysticalBard/themysticalbard.github.io/master/assets/images/fan.PNG)
 
     AFRAME.registerComponent('fan-dial', {
         init: function() {
@@ -133,7 +133,7 @@ The speed of the fan changes when you use the dial, it rotates from side to side
 ## Minecraft bee
 
 There is a large Minecraft bee that zips around outside the window!
-![Bee](/assets/images/bee.png)
+![](https://raw.githubusercontent.com/TheMysticalBard/themysticalbard.github.io/master/assets/images/bee.PNG)
 
     AFRAME.registerComponent('bee', {
        tick: function() {
