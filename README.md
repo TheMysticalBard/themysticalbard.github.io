@@ -6,7 +6,7 @@
 ## Window opacity slider
 
 The opacity of the window changes when you touch the slider, it moves both upwards and downwards.
-![](assets/images/window.png)
+![Window](/assets/images/window.png)
 
     AFRAME.registerComponent('window-slider', {
        init: function() {
@@ -71,7 +71,7 @@ The opacity of the window changes when you touch the slider, it moves both upwar
 ## Fan speed dial
 
 The speed of the fan changes when you use the dial, it rotates from side to side, just like my fan dial in my real room.
-![](assets/images/fan.png)
+![Fan](/assets/images/fan.png)
 
     AFRAME.registerComponent('fan-dial', {
         init: function() {
@@ -133,7 +133,7 @@ The speed of the fan changes when you use the dial, it rotates from side to side
 ## Minecraft bee
 
 There is a large Minecraft bee that zips around outside the window!
-![](assets/images/bee.png)
+![Bee](/assets/images/bee.png)
 
     AFRAME.registerComponent('bee', {
        tick: function() {
